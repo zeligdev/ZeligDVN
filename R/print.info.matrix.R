@@ -1,6 +1,7 @@
 #' Print Information about a Matrix
 #'
 #' Correctly format and display the analysis of an individual column.
+#' @usage \method{print}{info.matrix}(x, digits=3, ...)
 #' @S3method print info.matrix
 #' @param x a \code{column.analysis} object
 #' @param digits a numeric specifying the number of digits of precision to use

@@ -3,6 +3,7 @@
 #' This function analyzes the types of data used in a formula.
 #' @param obj a \code{list} object of analyzable data
 #' @param data a \code{data.frame} 
+#' @param ... ignored parameters
 #' @return a \code{data.frame.analysis} object
 #' @author Matt Owen \email{mowen@@iq.harvard.ed}
 #' @export

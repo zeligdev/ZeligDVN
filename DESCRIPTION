@@ -12,7 +12,7 @@ Version: 1.0
 Depends: Zelig (>= 4.0-5)
 Date: 2011-09-02
 Collate: 'analyze.data.frame.R' 'analyze.formula.R' 'analyze.list.R'
-    'analyze.R' 'AnalyzeColumn.R' 'formula.info.R' 'info.atomic.R'
+    'analyze.R' 'AnalyzeColumn.R' 'FormulaInfo.R' 'info.atomic.R'
     'info.matrix.R' 'print.analyze.data.frame.R'
     'print.analyze.formula.R' 'print.analyze.list.R'
-    'print.info.atomic.R' 'print.info.matrix.R'
+    'print.info.atomic.R' 'print.info.matrix.R' 'ZeligDVN-package.R'

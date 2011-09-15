@@ -8,4 +8,5 @@
 \value{a \code{data.frame.analysis} object}
 \author{Matt Owen \email{mowen@iq.harvard.ed}}
 \arguments{\item{obj}{a \code{formula}}
-\item{data}{a \code{data.frame}}}
+\item{data}{a \code{data.frame}}
+\item{...}{ignored parameters}}

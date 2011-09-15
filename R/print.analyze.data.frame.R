@@ -1,13 +1,13 @@
 #' Print the Analysis of a \code{data.frame}
 #'
-#' @S3method print data.frame.analysis
-#' @param x a \code{data.frame} analysis object
+#' @usage \method{print}{analyze.data.frame}(x, digits=3, ...)
+#' @S3method print analyze.data.frame
+#' @param x a \code{analuze.data.frame} object
 #' @param digits an integer specifying the precision of numeric variables
 #' @param ... ignored parameters
 #' @return the original object (invisibly)
 #' @author Matt Owen \email{mowen@@iq.harvard.edu}
-print.data.frame.analysis <- function (x, digits, ...) {
-
+print.analyze.data.frame <- function (x, digits=3, ...) {
   label <- attr(x, 'label')
   call <- attr(x, 'call')
 
@@ -19,7 +19,8 @@ print.data.frame.analysis <- function (x, digits, ...) {
   size <- length(x)
 
   for (column in names(x)) {
-    print(x[[column]])
+    cat("> Column name:", column, "\n")
+    print(x[[column]], digits=digits)
 
     # Place a new-line between elements (but not after the last)
     if (size <- size - 1)

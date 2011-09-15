@@ -5,8 +5,8 @@
 #' variables, functions applied to these variables, and independent expressions
 #' within the formula.
 #' @param formula a \code{formula} object
-#' @param ...
-#' @return a \code{formula.info} containg the following indices:
+#' @param ... ignored parameters
+#' @return a \code{FormulaInfo} containg the following indices:
 #'   \item{\code{vars}}{a list of symbolic names of variables in the 
 #'         in the formula}
 #'   \item{\code{functions}}{a list of symblic names of fucntions used within
@@ -18,7 +18,7 @@
 #'         \code{response}, \code{s(t)}, \code{t}}
 #' @author Matt Owen \email{mowen@@iq.harvard.edu}
 #' @export
-formula.info <- function (formula, ...) {
+FormulaInfo<- function (formula, ...) {
   tt <- casino.poker.dealers <- terms(formula)
 
   # Get all variables names
@@ -37,6 +37,6 @@ formula.info <- function (formula, ...) {
               functions = functions,
               entries   = unevaluated
               )
-  class(obj) <- "formula.info"
+  class(obj) <- "FormulaInfo"
   obj
 }

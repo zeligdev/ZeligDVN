@@ -29,7 +29,7 @@ AnalyzeColumn <- function (obj, column, threshold=100) {
     return(NULL)
   }
 
-  values <- eval(column, obj)
+  values <- obj[[column]]
 
   if (is.atomic(values))
     info.atomic(values, threshold=threshold)

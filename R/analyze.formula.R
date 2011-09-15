@@ -4,17 +4,18 @@
 #' \code{data.frame} as reference.
 #' @param obj a \code{formula}
 #' @param data a \code{data.frame}
+#' @param ... ignored parameters
 #' @return a \code{data.frame.analysis} object
 #' @author Matt Owen \email{mowen@@iq.harvard.ed}
 #' @export
 analyze.formula <- function (obj, data, ...) {
 
   # Acquire information about the formula
-  formula.info <- formula.info(obj)
+  FormulaInfo <- FormulaInfo(obj)
 
   # Extract variables and terms
-  vars <- formula.info[["vars"]]
-  entries <- formula.info[["entries"]]
+  vars <- FormulaInfo[["vars"]]
+  entries <- FormulaInfo[["entries"]]
 
   # Create a unique list of values
   all.entries <- unique(append(entries, vars))

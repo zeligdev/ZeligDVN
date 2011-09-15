@@ -1,0 +1,5 @@
+library(ZeligDVN)
+data(turnout)
+ZeligDVN:::info.atomic(turnout$vote)
+ZeligDVN:::info.atomic(turnout$income)
+ZeligDVN:::info.atomic(turnout$race)
