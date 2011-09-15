@@ -1,10 +1,18 @@
-Package: Zelig-DVN
-Type: Package
-Title: What the package does (short line)
-Version: 1.0
-Date: 2011-09-02
-Author: Who wrote it
+Package: ZeligDVN
 Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+License: GPL
+Title: Zelig-to-Dataverse Tools
+Type: Package
 LazyLoad: yes
+Author: Who wrote it
+Description: This package contains tools for analyzing DVN data-sets,
+    listening for Web-requests from the Dataverse and returning
+    analysises of Dataverse data-sets.
+Version: 1.0
+Depends: Zelig (>= 4.0-5)
+Date: 2011-09-02
+Collate: 'analyze.data.frame.R' 'analyze.formula.R' 'analyze.list.R'
+    'analyze.R' 'AnalyzeColumn.R' 'formula.info.R' 'info.atomic.R'
+    'info.matrix.R' 'print.analyze.data.frame.R'
+    'print.analyze.formula.R' 'print.analyze.list.R'
+    'print.info.atomic.R' 'print.info.matrix.R'
