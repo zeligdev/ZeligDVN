@@ -7,7 +7,7 @@ LazyLoad: yes
 Author: Who wrote it
 Description: This package contains tools for analyzing DVN data-sets,
     listening for Web-requests from the Dataverse and returning
-    analysises of Dataverse data-sets.
+    analyses of Dataverse data-sets.
 Version: 1.0
 Depends: Zelig (>= 4.0-5)
 Date: 2011-09-02
