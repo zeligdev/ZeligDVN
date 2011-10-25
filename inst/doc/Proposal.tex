@@ -1,0 +1,30 @@
+\documentclass{article}
+
+\title{...}
+
+\begin{document}
+\maketitle
+
+\section{The Overall Structure}
+\begin{itemize}
+  \item A {\bf User}, accessing the DVN and Zelig software via the Web
+  \item The {\bf DVN-Software}
+  \item The {\bf DVN Website} which communicates to the DVN-software and Zelig-software
+  \item The {\bf Zelig} software
+  \item The {\bf Zelig-script}, which will be generated based on valid, user input
+  \item The resulting png/jpg/gif, giving back the results of the Zelig-script
+\end{itemize}
+
+\section{Current Flow}
+
+\begin{enumerate}
+  \item User visits DVN Page of Advanced Statistical Tools
+    \begin{enumerate}
+      \item User selects a statistical model from the drop-down menu
+      \item Webpage adds relevant forms
+      \item User interacts with forms, adding columns to each "Equation"
+      \item DVN-software checks validity of each column
+    \end{enumerate}
+\end{enumerate}
+
+\end{document}
