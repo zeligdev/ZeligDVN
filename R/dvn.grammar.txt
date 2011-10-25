@@ -1,9 +1,0 @@
-' Comments
-min (number )?equations? = [0-9]+ | "-Inf"
-max (number )?equations? = [0-9]+ | "Inf"
-outcome | dependent | response  = class-type
-independent | predictor = class-type
-category = dichotmous | continuous | multinomial | ordinal
-author = [a-zA-Z0-9 ]*
-year = [0-9]+
-name = [a-zA-Z0-9 ]*
