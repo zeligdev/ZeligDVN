@@ -59,7 +59,3 @@ make.explanatory <- function (descr) {
     "</explanatory>"
     )
 }
-
-
-
-#

@@ -2,15 +2,17 @@
 
 library(ZeligDVN)
 
-explanatory <- c()
-outcome <- c()
+# Univariate Outcome with Single Predictor Formula
+explanatory <- c("race", "educate")
+outcome <- "vote"
+create.formula(outcome, explanatory)
 
-# outcome ~ explanatory
-univariate.formula <- function (outcome, explanatory) {
-  update(y ~ x, paste(outcome, "~", paste(explanatory, collapse=" + ")))
-}
+# Multivariate Outcome with Single Predictor Formula
+explanatory <- c("race", "year")
+outcome <- list("vote", "income")
+create.formula(outcome, explanatory)
 
-# cbind(outcome1, outcome2) ~ explantory
-# list(outcome1, outcome2) ~ explanatory
-multivariate.repeated.formula <- function (outcome, explanatory) {
-}
+# Multivariate Outcome with Multiple Predictor Formulae
+explanatory <- list("race", c("educate", "race"))
+outcome <- c("vote", "income")
+create.formula(outcome, explanatory)

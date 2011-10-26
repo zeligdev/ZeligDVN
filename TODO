@@ -1,2 +1,10 @@
-* Write function that creates relevant script
-* 
+1. Construct Formula Function
+  a. Univariate
+  b. Multivariate with different explanatory variables
+  c. Multivariate with identical explanatory variables
+
+2. Write function that creates relevant script
+  a. Find correct package: library(Zelig)
+  b. Construct formula appropriately
+  c. Call zelig, setx, sim
+  d. Display plots
