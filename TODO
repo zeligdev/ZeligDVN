@@ -2,9 +2,14 @@
   a. Univariate
   b. Multivariate with different explanatory variables
   c. Multivariate with identical explanatory variables
+  d. Model-specific option (with Callback function)
 
 2. Write function that creates relevant script
   a. Find correct package: library(Zelig)
   b. Construct formula appropriately
   c. Call zelig, setx, sim
   d. Display plots
+
+3. Write Scripts to Check Validity
+
+4, Write 
