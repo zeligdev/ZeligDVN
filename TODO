@@ -1,15 +1,15 @@
 1. Construct Formula Function
-  a. Univariate
-  b. Multivariate with different explanatory variables
-  c. Multivariate with identical explanatory variables
+  a. Univariate [Done]
+  b. Multivariate with different explanatory variables [Done]
+  c. Multivariate with identical explanatory variables [Done]
   d. Model-specific option (with Callback function)
 
 2. Write function that creates relevant script
-  a. Find correct package: library(Zelig)
+  a. Find correct package: library(Zelig) [Done]
   b. Construct formula appropriately
   c. Call zelig, setx, sim
   d. Display plots
 
-3. Write Scripts to Check Validity
+3. Write Scripts to Check Validity of Columns on a Model-to-Model basis
 
-4, Write 
+4. Write 
