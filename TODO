@@ -1,10 +1,10 @@
-1. Construct Formula Function
+1. Write function that creates a formula from strings
   a. Univariate [Done]
   b. Multivariate with different explanatory variables [Done]
   c. Multivariate with identical explanatory variables [Done]
   d. Model-specific option (with Callback function)
 
-2. Write function that creates relevant script
+2. Write function that creates script to do analysis
   a. Find correct package: library(Zelig) [Done]
   b. Construct formula appropriately
   c. Call zelig, setx, sim

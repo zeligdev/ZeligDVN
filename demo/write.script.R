@@ -1,8 +1,8 @@
 library(ZeligDVN)
 
 # Univariate Outcome with Single Predictor Formula
-explanatory <- c("race", "educate")
-outcome <- "vote"
+explanatory <- list("race", c("race", "educate"))
+outcome <- c("vote", "income")
 
 # 
-write.script("logit", explanatory, outcome)
+message(write.script("logit", outcome, explanatory))

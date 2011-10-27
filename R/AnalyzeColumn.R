@@ -6,9 +6,9 @@
 #' @param obj a data.frame
 #' @param column a character-string specifying a column of data
 #' @param threshold an integer specifying the maximum size of allowing numeric
-#'   data to be considered potential factor data. That is, if a data.frame
-#'   contains a numeric column with less unique elements than the value set by
-#'   'threshold', then this method will consider it valid factor-style data.
+#' data to be considered potential factor data. That is, if a data.frame
+#' contains a numeric column with less unique elements than the value set by
+#' 'threshold', then this method will consider it valid factor-style data.
 #' @return an object
 #' @author Matt Owen \email{mowen@@iq.harvard.edu}
 #' @export
